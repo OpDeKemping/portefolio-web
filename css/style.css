@@ -224,6 +224,21 @@ body {
     z-index: 26;
 }
 
+.Td13{
+    position: absolute;
+    border-radius: 20px;
+    width: 680px;
+    display: flex;
+    justify-content:space-around ;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+    top: 0px;
+    z-index: 25px;
+
+    z-index: 26;
+}
+
 .vandalism1 {
     position: absolute;
     transform: rotate(-10deg);
@@ -1485,6 +1500,15 @@ top: 225px;
   width: 100%;
   text-align: center;
 }
+.desc {
+    color: #ffffff;
+    font-size: 35px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 900px;
+    width: 100%;
+    text-align: center;
+  }
 
 .numbertext {
   color: #ff0000;
@@ -1494,6 +1518,14 @@ top: 225px;
   position: absolute;
   top: 0;
 }
+.numbertext2 {
+    color: #ffffff;
+    transform: rotate(-10deg);
+    font-size: 30px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
 
 
 .dot {
